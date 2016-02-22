@@ -7,9 +7,9 @@ $(document).on('ready page:load', function() {
     var searchValue = $('#search').val();
 
     $.get('/products?search=' + searchValue)
-  .done(function(data){
-    console.log(data);
-    $('#products').html(data);
-  });
+      .done(function(data){
+        console.log(data);
+        $('#products').html(data);
+      });
   });
 });
