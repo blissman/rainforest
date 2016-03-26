@@ -11,4 +11,4 @@ integrated into the views.
 1. clone this repository
 2. bundle install
 3. run rails server
-4. check out Rainforest
+4. check out Rainforest on localhost:3000
